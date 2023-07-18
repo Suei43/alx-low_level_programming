@@ -1,9 +1,9 @@
 #include "main.h"
-/*
-* main - main block prints _putchar
-* Description point - prints _putchar \n
-* Return - returns 0
-*/
+/**
+ * main - main block
+ * Description point - putchar then a new line
+ * Return: this program returns 0
+ */
 int main(void)
 {
 _putchar('_');
