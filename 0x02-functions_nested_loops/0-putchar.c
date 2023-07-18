@@ -1,8 +1,8 @@
 #include "main.h"
 /*
 * main - main block prints _putchar
-* description - prints _putchar \n
-* return - returns 0
+* Description point - prints _putchar \n
+* Return - returns 0
 */
 int main(void)
 {
