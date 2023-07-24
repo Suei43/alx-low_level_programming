@@ -1,1 +1,1 @@
-THis repo is about tasks on debugging
+Debugging tasks
