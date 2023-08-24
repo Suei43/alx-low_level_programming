@@ -17,9 +17,11 @@ if (h->str == NULL)
 printf("[%u] %s\n", 0, "(nil)");
 else
 printf("[%u] %s\n", h->len, h->str);
+
 h = h->next;
-++count;
+
+count++;
 }
 
-return count;
+return (count);
 }
