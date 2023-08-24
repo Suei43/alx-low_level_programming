@@ -3,9 +3,9 @@
 #include "lists.h"
 
 /**
- * _strlen - Length of the passed string
+ * _strlen - Length of the string that has been passed in
  * @s: String
- * Return: Returns the length of a string
+ * Return: Returns the length of string
 **/
 int _strlen(const char *s)
 {
@@ -20,7 +20,7 @@ return (i);
 /**
  * add_node - Prints length and the string, then returns amount of nodes
  * @head: Pointer to a struct constant
- * @str: haha ex di
+ * @str: str
  * Return: Returns amount of node
 **/
 

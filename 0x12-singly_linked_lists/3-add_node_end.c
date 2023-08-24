@@ -3,9 +3,9 @@
 #include "lists.h"
 
 /**
- * _strlen - Length of the passed string
+ * _strlen - Length of the string
  * @s: String
- * Return: Returns the length of a string
+ * Return: Length of string
 **/
 int _strlen(const char *s)
 {

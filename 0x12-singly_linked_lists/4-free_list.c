@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * free_list - Frees memory space of a list
- * @head: Pointer to a struct pointer
- * Return: Returns amount of node
+ * free_list - Frees the memory space of a list
+ * @head: Pointer to a struct's pointer
+ * Return: Amount of nodes
 **/
 
 void free_list(list_t *head)

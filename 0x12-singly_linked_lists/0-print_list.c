@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * print_list - Prints length and the string, then returns amount of nodes
- * @h: Pointer to a struct constant
- * Return: Returns amount of node
+ * print_list - Prints length and string and then returns the amount of nodes
+ * @h: Pointer to struct constant
+ * Return: Amount of nodes
 **/
 
 size_t print_list(const list_t *h)
@@ -17,10 +17,9 @@ if (h->str == NULL)
 printf("[%u] %s\n", 0, "(nil)");
 else
 printf("[%u] %s\n", h->len, h->str);
-
 h = h->next;
-count++;
+++count;
 }
 
-return (count);
+return count;
 }
