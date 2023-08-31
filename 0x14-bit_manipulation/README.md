@@ -1,1 +1,1 @@
-The repository is about Bit manipulation
+0x14
