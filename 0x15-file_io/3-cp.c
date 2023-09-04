@@ -3,10 +3,10 @@
 #define ER STDERR_FILENO
 
 /**
-* copy_file - copies the content of a file to another file
+* copy_file - copy the content of a file into another file
 * @file1: file to copy from
-* @fil2: file to copy to
-* Return: nothing, or exit on failure
+* @fil2: file to be copied into
+* Return: nothing or exit if it fails
 **/
 void copy_file(const char *file1, char *fil2)
 {
