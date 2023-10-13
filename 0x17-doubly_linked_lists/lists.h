@@ -5,10 +5,10 @@
 #include <stdlib.h>
 
 /**
- * struct dlistint_s - doubly linked list
+ * struct dlistint_s - a doubly linked list
  * @n: integer
- * @prev: points to the previous node
- * @next: points to the next node
+ * @prev: pointer to the previous node
+ * @next: pointer to the next node
  *
  * Description: doubly linked list node structure
  */
