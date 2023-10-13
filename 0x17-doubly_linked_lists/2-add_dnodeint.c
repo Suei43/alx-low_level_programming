@@ -5,23 +5,23 @@
  * @head: A pointer to the head of the dlistint_t list.
  * @n: The integer for the new node to contain.
  *
- * Return: If the function fails - NULL.
- *         Otherwise - the address of the new node.
+ * Return: If the function fails returns - NULL.
+ *         Otherwise returns - the address of the new node.
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistint_t *new;
+	dlistint_t *new_node;
 
-	new = malloc(sizeof(dlistint_t));
-	if (new == NULL)
+	new_node = malloc(sizeof(dlistint_t));
+	if (new_node == NULL)
 		return (NULL);
 
-	new->n = n;
-	new->prev = NULL;
-	new->next = *head;
+	new_node->n = n;
+	new_node->prev = NULL;
+	new_node->next = *head;
 	if (*head != NULL)
-		(*head)->prev = new;
-	*head = new;
+		(*head)->prev = new_node;
+	*head = new_node;
 
-	return (new);
+	return (new_node);
 }
